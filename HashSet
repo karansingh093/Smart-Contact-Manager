@@ -8,6 +8,8 @@ public:
     int data;
     Node* next;
 
+    private String name="Boat"
+
     Node(int data) {
         this->data = data;
         next = NULL;
