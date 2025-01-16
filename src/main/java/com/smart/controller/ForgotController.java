@@ -66,7 +66,7 @@ public class ForgotController {
 			session.setAttribute("myotp",otp);
 			session.setAttribute("email", email);
 			return "verify_otp";
-			
+		
 		}else {
 			session.setAttribute("message","Check your email id !!");
 			return "forgot_email";
